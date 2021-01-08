@@ -1,2 +1,4 @@
-# 100daysOfCode-2021
-This is a community git repository for side projects and scripts for 2021
+# 2021
+## 100 Days of Code
+
+Just a repository for memebers of BBT to share some of their little scripting projects. Let's see if we can get 100 days of code together!
