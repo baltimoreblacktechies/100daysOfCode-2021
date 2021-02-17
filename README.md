@@ -23,9 +23,10 @@ Just a repository for members of BBT to share some of their little scripting pro
 ## Instructions
 
 * Create a github account
-* Copy our repo: https://github.com/baltimoreblacktechies/100daysOfCode-2021
-* Create a branch and a folder with your name 
-* Code daily and post to github and slack on your progress
+* Fork our repo locally: https://github.com/baltimoreblacktechies/100daysOfCode-2021
+* Track the our repo as a remote (Optional) 
+* Create a branch and a folder with your name (ex. 100DaysOfCode_name)
+* Code daily and post to github and slack on your progress   
 
 
 Let's have fun and support everyone in their tech journey
