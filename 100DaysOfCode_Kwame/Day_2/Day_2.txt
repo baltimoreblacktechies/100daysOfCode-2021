@@ -1,0 +1,3 @@
+Day 2: Worked on a few projects for work as we prepare to migrate some of our AWS Lambdas to Airflow (ETL Scheduling framework that programmatically schedules, monitors, and performs workflows)
+
+Currently have several Lambda functions that need rewriting to work with the new scheduler
