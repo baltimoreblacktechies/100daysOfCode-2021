@@ -1,5 +1,6 @@
 import os
 import json
+from typing import Optional
 
 from python_git_wrapper import Repository, GitError
 
@@ -11,32 +12,37 @@ class Cache(object):
 
     __slots__ = ["_cache_location", "_json"]
 
-    def __init__(self, cache_location: str):
+    def __init__(self,
+                 cache_location: str,
+                 override_location: Optional[str] = None):
         self._cache_location = cache_location
-        self._json = Cache._get_cache(cache_location)
+        self._json = Cache._get_cache(cache_location, override_location)
 
     def update(self, repository: Repository):
         for commit in self.walk_commit(repository):
-            if commit.author not in self.commits:
-                self.commits[commit.author] = []
-            print(commit.author, commit.hash, commit.message, commit.datetime)
+            author = commit.author
+            if author in self.alias:
+                author = self.alias[author]
+            if author not in self.commits:
+                self.commits[author] = []
             self.visited.append(commit.hash)
-            self.commits[commit.author].append(str(commit.datetime.date()))
-            self.authors[commit.author] = commit.email
+            self.commits[author].append(str(commit.datetime.date()))
+            if author not in self.authors:
+                self.authors[author] = commit.email
+            print(author, commit.hash, commit.message, commit.datetime)
 
     def dump(self):
         with open(self._cache_location, "w") as cache:
             return json.dump(self._json, cache, sort_keys=True, indent=4)
 
     def walk_commit(self, repository: Repository):
-        visited = set(repository.get_commit(visited) for visited in self.visited)
+        visited = set(
+            repository.get_commit(visited) for visited in self.visited)
         search = set([repository.last_commit]) - visited
-        print(search, repository.last_commit)
         while search:
             commit = search.pop()
             search |= set(commit.parents) - visited
             visited.add(commit)
-            print("**", commit.author, commit.hash, commit.message, commit.datetime)
             if (MERGE_STRING not in commit.message
                     and README_STRING not in commit.message):
                 yield commit
@@ -49,9 +55,15 @@ class Cache(object):
         return self._json[key]
 
     @staticmethod
-    def _get_cache(cache_location: str):
-        if not os.path.exists(cache_location):
-            return {"visited": [], "commits": {}, "authors": {}}
+    def _get_cache(cache_location: str,
+                   override_location: Optional[str] = None):
 
-        with open(cache_location) as cache:
-            return json.load(cache)
+        data = {"visited": [], "commits": {}, "authors": {}, "alias": {}}
+        if os.path.exists(cache_location):
+            with open(cache_location) as cache:
+                data = json.load(cache)
+        if override_location:
+            with open(override_location) as override_location:
+                data.update(json.load(override_location))
+
+        return data

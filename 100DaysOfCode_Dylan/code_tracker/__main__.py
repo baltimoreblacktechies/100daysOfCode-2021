@@ -19,16 +19,19 @@ flags.DEFINE_string(
                            "recomputed."),
     short_name='c')
 flags.DEFINE_string(
-    "image",
-    "track.png", ("Resultant image location."),
-    short_name='i')
+    "override",
+    "tracker_overrides.json",
+    ("Override files that will overwrite the details in the cache file."),
+    short_name='o')
+flags.DEFINE_string(
+    "image", "track.png", ("Resultant image location."), short_name='i')
 
 
 def main(unused: List[str]):
     del unused
     repository = Repository(FLAGS.repository)
 
-    cache = Cache(FLAGS.cache)
+    cache = Cache(FLAGS.cache, FLAGS.override)
     cache.update(repository)
     cache.dump()
 
