@@ -25,6 +25,7 @@ jobs:
 
       - name: track.png
         run: |
+          mkdir -p /home/runner/cache/
           python 100DaysOfCode_Dylan/code_tracker -o 100DaysOfCode_Dylan/tracker_overrides.json -c /home/runner/cache/cache.json
 
       - uses: actions/upload-artifact@v2
