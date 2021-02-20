@@ -1,0 +1,33 @@
+name: contributors
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Mount cache
+        id: tracker-cache
+        uses: actions/cache@v1
+        with:
+          path: "/home/runner/cache"
+          key: cache
+
+      - name: setup
+        run: |
+          pip3 install -r ${GITHUB_WORKSPACE}/100DaysOfCode_Dylan/code_tracker/requirements.txt
+
+      - name: track.png
+        run: |
+          python 100DaysOfCode_Dylan/code_tracker -o 100DaysOfCode_Dylan/tracker_overrides.json -c /home/runner/cache/cache.json
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: track.png
+          path: track.png
