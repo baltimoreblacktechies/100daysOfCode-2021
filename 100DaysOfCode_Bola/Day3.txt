@@ -1,0 +1,3 @@
+Day 3: Spent today learning and practicing recursion. One problem led me down an interesting rabbit hole about the different ways to remove the 
+last element of an array in javascript. There are three different ways to do it, and each method returns something different. Definitely a good 
+review of some of javascript's built in methods.
