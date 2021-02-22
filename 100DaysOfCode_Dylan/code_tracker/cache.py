@@ -76,11 +76,9 @@ class Cache(object):
                 override_string = override.read()
                 hash = hashlib.md5(override_string.encode('utf-8')).hexdigest()
             override = json.loads(override_string)
-            if data["override"] == hash:
-                data.update(override)
-            else:
+            if data["override"] is not hash:
                 data = template.copy()
-                data.update(override)
                 data["override"] = hash
+            data.update(override)
 
         return data
