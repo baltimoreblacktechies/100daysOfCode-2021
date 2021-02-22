@@ -1,6 +1,7 @@
-site_name: Baltimore Black Techies present 100 days of code
+site_name: Baltimore Black Techies present 100 Days of Code
 site_description: 100 days of code progress
 site_author: Baltimore Black Techies
+repo_url: https://github.com/baltimoreblacktechies/100daysOfCode-2021
 theme:
   name: material
   logo: 'https://avatars.githubusercontent.com/u/44561649?s=200&v=4'
