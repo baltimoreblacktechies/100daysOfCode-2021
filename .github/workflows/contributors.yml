@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - dylan
 jobs:
   contributors:
     runs-on: ubuntu-20.04
