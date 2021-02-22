@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir -p /home/runner/cache/
           python 100DaysOfCode_Dylan/code_tracker -o 100DaysOfCode_Dylan/tracker_overrides.json -c /home/runner/cache/cache.json
-          mkdir -f artifacts
+          mkdir -p artifacts
           cp /home/runner/cache/cache.json artifacts
           cp *.png artifacts
 
