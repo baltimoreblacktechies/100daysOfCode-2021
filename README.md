@@ -1,5 +1,10 @@
-# 2021
-## 100 Days Of Code
+# 100 Days Of Code
+## 2021
+
+[![100 days of Code](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/banner.png)](https://bmoreblack.tech)
+
+[![Contributors](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/contributors.svg)](https://bmoreblack.tech)
+[![Days](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/days.svg)](https://bmoreblack.tech)
 
 The challenge to code at least one hour every day for the next 100 days.
 
