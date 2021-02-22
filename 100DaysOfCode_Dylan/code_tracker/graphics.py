@@ -119,7 +119,7 @@ def generate_images(cache: 'Cache', filename: str = "days.png",
 def get_badges(cache: 'Cache', contrib_color="green", days_color="blue"):
     plot_data = extract_plot_data(cache)
     contributor_count = len(plot_data)
-    days_count = sum(map(lambda x: len(x[0]), plot_data))
+    days_count = sum(map(lambda x: len(x[0]), plot_data.values()))
     badges = {
         "contributors.svg.gz":
         f"https://img.shields.io/badge/contributors-{contributor_count}-{contrib_color}",

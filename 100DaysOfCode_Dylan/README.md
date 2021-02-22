@@ -23,3 +23,13 @@ are a little broken rn (can only download zips) so was disappointed.
 
 Lol, over did the readme page, made a github pages site and added badges for
 100 days of code. Also fixed some of the caching issues.
+
+## Day 5
+
+Does work count? Worked on a visualization with
+[Manim](https://github.com/ManimCommunity/manim/) for an upcoming presentation.
+I fixed a bug with my CI in my research code, and I read up on using CSE for
+FMM + means of numerically calculating Cauchy integrals incase I want to go
+down the numerical FMM route (with Laurent series) for the equations I've
+been wrestling with. Also fixed a bug or two with the BBT 100 Days of code
+CI.
