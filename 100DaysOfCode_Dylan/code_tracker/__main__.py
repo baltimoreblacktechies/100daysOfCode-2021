@@ -6,7 +6,7 @@ from absl import app  # type: ignore
 from absl import flags
 
 from cache import Cache
-from graphics import generate_images
+from graphics import generate_images, get_badges
 
 FLAGS = flags.FLAGS
 flags.DEFINE_string(
@@ -36,6 +36,7 @@ def main(unused: List[str]):
     cache.dump()
 
     generate_images(cache, FLAGS.image)
+    get_badges(cache)
 
 
 if __name__ == '__main__':

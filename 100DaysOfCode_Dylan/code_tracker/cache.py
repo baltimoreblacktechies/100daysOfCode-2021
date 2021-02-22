@@ -4,6 +4,8 @@ from typing import Optional
 
 from python_git_wrapper import Repository, GitError
 
+import hashlib
+
 MERGE_STRING = "Merge pull request"
 README_STRING = "Update README.md"
 
@@ -58,12 +60,27 @@ class Cache(object):
     def _get_cache(cache_location: str,
                    override_location: Optional[str] = None):
 
-        data = {"visited": [], "commits": {}, "authors": {}, "alias": {}}
+        template = {
+            "visited": [],
+            "commits": {},
+            "authors": {},
+            "alias": {},
+            "override": ""
+        }
+        data = template.copy()
         if os.path.exists(cache_location):
             with open(cache_location) as cache:
-                data = json.load(cache)
+                data.update(json.load(cache))
         if override_location:
-            with open(override_location) as override_location:
-                data.update(json.load(override_location))
+            with open(override_location) as override:
+                override_string = override.read()
+                hash = hashlib.md5(override_string.encode('utf-8')).hexdigest()
+            override = json.loads(override_string)
+            if data["override"] == hash:
+                data.update(override)
+            else:
+                data = template.copy()
+                data.update(override)
+                data["override"] = hash
 
         return data
