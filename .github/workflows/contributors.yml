@@ -30,9 +30,11 @@ jobs:
         run: |
           mkdir -p /home/runner/cache/
           python 100DaysOfCode_Dylan/code_tracker -o 100DaysOfCode_Dylan/tracker_overrides.json -c /home/runner/cache/cache.json
+          gzip -d *gz
           mkdir -p artifacts
           cp /home/runner/cache/cache.json artifacts
           cp *.png artifacts
+          cp *.svg artifacts
 
       - uses: actions/upload-artifact@v2
         with:
@@ -43,8 +45,10 @@ jobs:
         run: |
           mkdir -p docs
           cp *.png docs
+          cp *.svg docs
           find . -name "100DaysOfCode_*" -exec bash -c "find {}/ -type f \( -name '*md' -o -name '*txt' \) | sort -n | xargs awk 'FNR==1 && NR!=1 {print \"---\n\"}{print}' > docs/\$(echo {} | grep -oP \"(?<=_)[^_]*\$\").md" \;
           find docs/ -name "*md" -exec bash -c "basename {} | xargs echo -e '    - {}:'" \; | sort >> mkdocs.yml
+          cp README.md docs/index.md
           python3 -m mkdocs build
           ls site/
 

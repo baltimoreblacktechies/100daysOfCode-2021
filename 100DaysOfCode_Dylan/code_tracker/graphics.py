@@ -80,7 +80,7 @@ def extract_plot_data(cache, GAP=GAP):
 def generate_images(cache: 'Cache', filename: str = "days.png",
                     GAP: int = GAP):
     plot_data = extract_plot_data(cache, GAP=GAP)
-    max_count = max(map(len, plot_data.values()))
+    max_count = max(map(lambda x: len(x[0]), plot_data.values()))
 
     colors = [
         (tuple(int(c * 255) for c in color), color)
@@ -121,9 +121,9 @@ def get_badges(cache: 'Cache', contrib_color="green", days_color="blue"):
     contributor_count = len(plot_data)
     days_count = sum(map(lambda x: len(x[0]), plot_data))
     badges = {
-        "contributors.png":
+        "contributors.svg.gz":
         f"https://img.shields.io/badge/contributors-{contributor_count}-{contrib_color}",
-        "days.png":
+        "days.svg.gz":
         f"https://img.shields.io/badge/total%20days%20coded-{days_count}-{days_color}"
     }
     for (name, badge) in badges.items():
