@@ -2,10 +2,12 @@
 
 [![100 days of Code](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/banner.png)](https://bmoreblack.tech)
 
-[![Contributors](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/contributors.svg)](https://baltimoreblacktechies.github.io/100daysOfCode-2021/#current-status)
-[![Days](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/days.svg)](https://bmoreblack.tech)
-[![Docs](https://img.shields.io/badge/docs-100%20days-violet)](https://baltimoreblacktechies.github.io/100daysOfCode-2021/)
-
+<span style="box-sizing: border-box; width:100%; margin-left:15%; margin-top:-15%;">
+<p><a href="http://bit.ly/3r4lPQm"><img src="https://img.shields.io/badge/slack-Baltimore%20Black%20Techies-red.svg?logo=slack" alt="Join the slack channel"></a>
+<a href="https://baltimoreblacktechies.github.io/100daysOfCode-2021/#current-status"><img src="https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/contributors.svg" alt="Contributors"></a>
+<a href="https://bmoreblack.tech"><img src="https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/days.svg" alt="Days"></a>
+<a href="https://baltimoreblacktechies.github.io/100daysOfCode-2021/"><img src="https://img.shields.io/badge/docs-100%20days-violet" alt="Docs"></a></p>
+</span>
 
 The challenge to code at least one hour every day for the next 100 days.
 
