@@ -33,3 +33,10 @@ FMM + means of numerically calculating Cauchy integrals incase I want to go
 down the numerical FMM route (with Laurent series) for the equations I've
 been wrestling with. Also fixed a bug or two with the BBT 100 Days of code
 CI.
+
+## Day 6
+
+I went viral !
+
+Made a nice d3 vis in observablehq.com of the parachute of the [perseverance rover](https://observablehq.com/@dmadisetti/perseverance-parachute)
+Spliced together some footage of the actual parachute + [posted to reddit](https://reddit.com/r/dataisbeautiful/comments/lqgset/oc_decoding_the_stars_visualizing_the_message_in/)
