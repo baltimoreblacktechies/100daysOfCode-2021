@@ -1,0 +1,5 @@
+Started learning Tkinter on Python by following a tutorial from [Real Python](https://realpython.com/python-gui-tkinter/).
+
+Link to [repo](https://github.com/crc8109/PythonGUI_Tkinter):
+
+No link to live code.
