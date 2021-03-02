@@ -1,15 +1,13 @@
 # 100 Days Of Code
 
 [![100 days of Code](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/banner.png)](https://bmoreblack.tech)
-
+[![Join the slack channel](https://img.shields.io/badge/slack-Baltimore%20Black%20Techies-red.svg?logo=slack)](http://bit.ly/3r4lPQm)
 [![Contributors](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/contributors.svg)](https://baltimoreblacktechies.github.io/100daysOfCode-2021/#current-status)
 [![Days](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/days.svg)](https://bmoreblack.tech)
 [![Docs](https://img.shields.io/badge/docs-100%20days-violet)](https://baltimoreblacktechies.github.io/100daysOfCode-2021/)
 
-
-The challenge to code at least one hour every day for the next 100 days.
-
-Just a repository for members of BBT to share some of their little scripting projects. Let's see if we can get 100 days of code together!
+The challenge is to code at least **one hour every day for the next 100 days**.
+This is just a repository for members of BBT to share some of their projects, efforts and notes. Let's see if we can get 100 days of code together!
 
 ## FAQ:
 
