@@ -1,0 +1,5 @@
+Continued tutorial from [Real Python](https://realpython.com/python-gui-tkinter/). Learned about manipulating Frames using pack().
+
+Link to [repo](https://github.com/crc8109/PythonGUI_Tkinter):
+
+50% through tutorial
