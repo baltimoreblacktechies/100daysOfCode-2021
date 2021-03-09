@@ -40,3 +40,11 @@ I went viral !
 
 Made a nice d3 vis in observablehq.com of the parachute of the [perseverance rover](https://observablehq.com/@dmadisetti/perseverance-parachute)
 Spliced together some footage of the actual parachute + [posted to reddit](https://reddit.com/r/dataisbeautiful/comments/lqgset/oc_decoding_the_stars_visualizing_the_message_in/)
+
+## Day 7
+
+Made a fun little site for Irene's dog [Frida](https://www.frida.kim) :tada:
+
+## Day 8
+
+Translated an old project from tensorflow 1 to to tensorflow 2. Pretty annoying tbh, pretty large api changes.
