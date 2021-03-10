@@ -1,3 +1,0 @@
-Today, for 100 days of code I took a deep dive into the golang docs to 
-learn more about the built in log functionality. I also watched a couple videos 
-on this topic too.

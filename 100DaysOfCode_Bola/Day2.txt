@@ -1,1 +1,0 @@
-Day 2: Worked on developing a microservice at work that receieves and logs client errors. I also spent some time reading about preventing SQL injections in Go and other vulnerabilities. 

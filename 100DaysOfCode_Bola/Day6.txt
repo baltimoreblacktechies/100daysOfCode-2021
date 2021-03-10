@@ -1,2 +1,0 @@
-For day 6 0f 100 days of code, I continued looking into logging. Understanding the common components that go into a log
-like timestamp, stack trace, a unique ID etc. I worked on getting the POST endpoint for the logging microservice up and running.  

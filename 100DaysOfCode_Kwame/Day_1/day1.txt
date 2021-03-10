@@ -1,5 +1,0 @@
-Hey all for my day 1 of 100 Days of code. 
-
-I spent an hour working on learning some of the basic inner workings of Kubernetes. 
-
-Using https://kubernetes.io/docs/tutorials/ I was able to follow the documentation and tutorials for more in-depth understanding of how Kubernetes actually works 
