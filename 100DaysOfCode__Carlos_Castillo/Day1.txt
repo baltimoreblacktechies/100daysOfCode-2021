@@ -1,0 +1,8 @@
+Finished job scrapping app.
+
+Link to repo:
+https://github.com/crc8109/job-scraper
+
+
+Link to live project:
+https://repl.it/@crc8109/job-scraper#README.md

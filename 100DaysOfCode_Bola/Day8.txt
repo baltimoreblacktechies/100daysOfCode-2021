@@ -1,0 +1,1 @@
+Today, I learned about sorting algorithms and practiced implementing the bubble sort. 
