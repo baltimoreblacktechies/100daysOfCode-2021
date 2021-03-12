@@ -1,0 +1,5 @@
+Continued tutorial from [Real Python](https://realpython.com/python-gui-tkinter/). Continued learning about using grid().
+
+Link to [repo](https://github.com/crc8109/PythonGUI_Tkinter):
+
+~60% through tutorial
