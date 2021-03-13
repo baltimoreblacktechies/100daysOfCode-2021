@@ -1,0 +1,2 @@
+Day 1: Recently, I've been making an effort to improve my knowledge of data structures and algorithms. I'm working through a course 
+I purchased on Udemy. Today, I focused on solving problems using the "sliding window" technique. 

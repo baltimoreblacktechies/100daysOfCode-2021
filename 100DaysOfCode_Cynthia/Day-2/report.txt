@@ -1,0 +1,53 @@
+On Feb 19, I immersed myself in Go. I actually really enjoy learning Go and find that it helps me better understand coding in general. 
+
+Here are links to all the code I produced: 
+Arrays
+https://play.golang.org/p/DMeSZCYbeie
+
+Slice
+https://play.golang.org/p/YLLH-dvzK5m
+
+	Looping over a slice
+	https://play.golang.org/p/a9zMogodVns
+	
+	Slices of a slice and looping over without for range
+	https://play.golang.org/p/COQGusnhZ3t
+
+	Appending to a slice
+	https://play.golang.org/p/jCYegs1LpgT
+
+	Deleting a slice
+	https://play.golang.org/p/GeHCLle8H8b
+
+Making a slice, understanding len() and cap()
+https://play.golang.org/p/_pJHh-Mt3D5
+
+Multidimensional Slices
+https://play.golang.org/p/2qM4IfrhLvB
+
+Maps
+https://play.golang.org/p/TyiZJ5KSeZR
+
+	Add an element, print with for range
+	https://play.golang.org/p/fR0WlkdmHMx
+
+	Delete from a map
+	https://play.golang.org/p/LGZ3UasBySN
+
+	Using an if statement to check if ok (“comma ok” idiom) and delete there after
+	https://play.golang.org/p/SuebOZLs7_v
+
+Ninja Level #4
+
+1: https://play.golang.org/p/828-uNikYgx
+2: https://play.golang.org/p/mWWfrdNp9ct
+3: https://play.golang.org/p/EWvHGP3_YEo
+4: https://play.golang.org/p/iSBeIWw69rY
+5: https://play.golang.org/p/CQfjl4rh9tP
+6: https://play.golang.org/p/W6iS27805bH
+7:https://play.golang.org/p/hRhT3XyhBzs
+8:https://play.golang.org/p/FzCFCquXmF9
+
+I have to finish up exercise 9 and 10. Tomorrow, I want to review the next couple of sections in the Golang program I'm in. 
+
+Lastly, I did, I finally did it. I bought a Secret lab chair. Anyone else find themselves buying this chair at midnight? I feel like all the vlogs I've seen folx just took a leap and bought the chair in the middle of the night. LOL.
