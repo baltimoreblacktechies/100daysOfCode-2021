@@ -2,4 +2,4 @@ Continued tutorial from [Real Python](https://realpython.com/python-gui-tkinter/
 
 Link to [repo](https://github.com/crc8109/PythonGUI_Tkinter):
 
-~75% through tutorial
+~75% through tutorial.
