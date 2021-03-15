@@ -48,3 +48,8 @@ Made a fun little site for Irene's dog [Frida](https://www.frida.kim) :tada:
 ## Day 8
 
 Translated an old project from tensorflow 1 to to tensorflow 2. Pretty annoying tbh, pretty large api changes.
+
+## Day 9
+
+Did project euler problems 53, 59, [84](https://github.com/dmadisetti/painfulHaskell/commit/d6e6fc6bd4447423cb4df05b55b139609c26eb12)
+in [haskell](https://github.com/dmadisetti/painfulHaskell/).
