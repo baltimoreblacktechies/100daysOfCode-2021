@@ -1,0 +1,2 @@
+Took a break from tutorial and worked on an old project.
+Fixed it up to follow PEP8 guide.
