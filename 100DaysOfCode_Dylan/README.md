@@ -59,3 +59,7 @@ in [haskell](https://github.com/dmadisetti/painfulHaskell/).
 I explored using [serverless cells on Observable](https://next.observablehq.com/@dmadisetti/contribution-tracker) as a means of creating
 an endpoint for generating graphics. I integrated this pipeline into my CI for project [Euler problems](https://github.com/dmadisetti/painfulHaskell/).
 Pretty cool mini-project overall, and would likely use this method again.
+
+## Day 11
+
+I've been on my observable grind. For day 11, I implemented a radix tree + d3 to visulize toki pona: https://next.observablehq.com/@dmadisetti/toki-pona-radix-tree
