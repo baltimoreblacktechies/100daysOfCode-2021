@@ -1,0 +1,3 @@
+Tried to refactor web scrapper due to change in Monster.com.
+
+It seems now site is dynamic, not static, so further studying is required.
