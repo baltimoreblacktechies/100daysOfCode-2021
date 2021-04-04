@@ -1,0 +1,1 @@
+Started learning how to create json files using Python scripts. This is for a future DB project
