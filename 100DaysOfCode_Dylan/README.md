@@ -53,3 +53,13 @@ Translated an old project from tensorflow 1 to to tensorflow 2. Pretty annoying 
 
 Did project euler problems 53, 59, [84](https://github.com/dmadisetti/painfulHaskell/commit/d6e6fc6bd4447423cb4df05b55b139609c26eb12)
 in [haskell](https://github.com/dmadisetti/painfulHaskell/).
+
+## Day 10
+
+I explored using [serverless cells on Observable](https://next.observablehq.com/@dmadisetti/contribution-tracker) as a means of creating
+an endpoint for generating graphics. I integrated this pipeline into my CI for project [Euler problems](https://github.com/dmadisetti/painfulHaskell/).
+Pretty cool mini-project overall, and would likely use this method again.
+
+## Day 11
+
+I've been on my observable grind. For day 11, I implemented a radix tree + d3 to visulize toki pona: https://next.observablehq.com/@dmadisetti/toki-pona-radix-tree
