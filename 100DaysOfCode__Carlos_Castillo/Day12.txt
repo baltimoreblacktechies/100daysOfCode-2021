@@ -1,0 +1,1 @@
+Finished Python/JSON tutorial. Started working on backend of future app.
