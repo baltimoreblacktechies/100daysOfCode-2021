@@ -1,0 +1,2 @@
+Continued to work on script to create JSON files.
+Temp roadblock and appending to a pre-existing JSON file.
