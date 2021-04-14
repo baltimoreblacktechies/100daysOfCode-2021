@@ -1,0 +1,1 @@
+Started Learn JS The Hardway to start brushing up on JS for my watch db app
