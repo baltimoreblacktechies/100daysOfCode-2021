@@ -1,0 +1,3 @@
+Created bash script to scan host network for all connected devices.
+Created python script to create a web socket.
+Created python script to scan a host a user selected range of ports
