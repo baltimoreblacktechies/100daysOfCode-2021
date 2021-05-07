@@ -63,3 +63,11 @@ Pretty cool mini-project overall, and would likely use this method again.
 ## Day 11
 
 I've been on my observable grind. For day 11, I implemented a radix tree + d3 to visulize toki pona: https://next.observablehq.com/@dmadisetti/toki-pona-radix-tree
+
+## Day 12
+
+Made a github template for [Baltimore Black Techies Haskell talk](https://github.com/baltimoreblacktechies/haskell-template)
+
+## Day 13
+
+Started a rust [TUI app](https://github.com/fdehau/tui-rs). Will update when we're done ;)
