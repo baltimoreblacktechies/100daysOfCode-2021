@@ -1,0 +1,3 @@
+Created postgres DB for an interview.
+Created python script to create tables.
+Created python script to insert data from an array of JSONs.
