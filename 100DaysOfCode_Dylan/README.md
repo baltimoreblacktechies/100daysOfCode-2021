@@ -71,3 +71,7 @@ Made a github template for [Baltimore Black Techies Haskell talk](https://github
 ## Day 13
 
 Started a rust [TUI app](https://github.com/fdehau/tui-rs). Will update when we're done ;)
+
+## Day 14
+
+Released [TUI app](https://github.com/dmadisetti/steam-tui), and published to [cargo](https://crates.io/crates/steam-tui)
