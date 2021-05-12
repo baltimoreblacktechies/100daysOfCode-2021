@@ -75,3 +75,7 @@ Started a rust [TUI app](https://github.com/fdehau/tui-rs). Will update when we'
 ## Day 14
 
 Released [TUI app](https://github.com/dmadisetti/steam-tui), and published to [cargo](https://crates.io/crates/steam-tui)
+
+## Day 15
+
+I posted to social about the tui and had a good response. I spent sometime putting in unit tests and fixing a uft8 bug. Good opportunity to learn more about rust unit testing. 
