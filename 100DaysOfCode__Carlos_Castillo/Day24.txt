@@ -1,0 +1,1 @@
+Cont LJSTHW. Learned about callback functions and OOP in JS as well as ES6 style
