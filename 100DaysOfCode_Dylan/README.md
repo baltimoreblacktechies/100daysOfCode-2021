@@ -79,3 +79,7 @@ Released [TUI app](https://github.com/dmadisetti/steam-tui), and published to [c
 ## Day 15
 
 I posted to social about the tui and had a good response. I spent sometime putting in unit tests and fixing a uft8 bug. Good opportunity to learn more about rust unit testing. 
+
+## Day 16
+
+I created a [programming language](https://github.com/dmadisetti/sona.js) based off `toki pona` lol. Gained semi-virality. Most importantly, Matz (the inventor of ruby) [tweeted about it](https://twitter.com/DylanMadisetti/status/1441104482926882816)
